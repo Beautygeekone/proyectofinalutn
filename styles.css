@@ -1,71 +1,143 @@
-.title {
-  font-size: 2.25rem;           
-  color: #412700e5;
-  font-family: "Edu VIC WA NT Hand Pre", cursive;
-  font-weight: 700;            
-  font-style: normal;
-  text-align: center;
-}
-
-.logo {
-  height: 9rem;
-  width: 6rem;
-  transform: rotate(345deg);
-  display: block;
-  margin: 0 auto;
-  margin-top: -3rem;
-}
-
 body, html {
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(to bottom right, #ffffff, #585858);
+    margin: 0;
+    padding: 0;
+    background: #2c1e13;
 }
 
-.banner {
-  width: 100vw;        
-  height: auto;         
-  display: block;
-  object-fit: cover;
-  opacity: 90%;   
-}
-/*Navbar*/ 
-
+/* Navbar */ 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
 }
 
 li a {
-  display: block;
-  color: #412700e5;
-  padding: 8px 16px;
-  text-decoration: none;
+    display: block;
+    color: #412700e5;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 
 li a:hover {
-  background-color: #555555a9;
-  color: white;
+    background-color: #555555a9;
+    color: white;
 }
 
 .hidden {
-  display: none;
+    display: none;
 }
 
 #navbar {
-  background-color: #f1f1f1;
-  padding: 1rem;
-  position: absolute;
-  top: 40px;
-  left: 0;
-  width: 200px;
-  z-index: 100;
+    background-color: #f1f1f1;
+    padding: 1rem;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 200px;
+    z-index: 100;
 }
 
 button {
-  margin: 1rem;
-  padding: 0.5rem 1rem;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #2c1e13;
+    border-color: #2c1e13;
+}
+
+
+
+.title {
+    font-size: 7rem;
+    color: #b3570b;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10rem; 
+    margin-bottom: 2rem; 
+}
+
+h2.subtitle { 
+    display: none; 
+}
+
+
+.wavy-svg-subtitle { 
+    width: 90%; 
+    max-width: 900px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+    position: absolute; 
+    top: 8rem; 
+    left: 28%; /
+    z-index: 10; 
+    
+}
+
+#wavyPathId { 
+    fill: none; 
+    stroke: none; 
+}
+
+
+.svg-text-on-path {
+    font-family: 'Crimson Pro', serif; 
+    font-size: 2.5vw; 
+    font-weight: 700; 
+    fill: #f1f1f1; 
+    text-transform: none; 
+}
+
+.logo {
+    height: 9rem;
+    width: 6rem;
+    transform: rotate(345deg);
+    display: block;
+    margin: 0 auto;
+    margin-top: -4rem; 
+}
+
+.banner {
+    width: 100vw;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    opacity: 90%;
+}
+
+@media (max-width: 1200px) {
+    .title {
+        font-size: 6rem;
+        margin-top: 15rem; 
+    }
+    .wavy-svg-subtitle {
+        top: 8rem; 
+    }
+    .svg-text-on-path {
+        font-size: 3vw; 
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 3rem;
+        margin-top: 6rem;
+    }
+    .wavy-svg-subtitle {
+        top: 2rem; 
+    }
+    .svg-text-on-path {
+        font-size: 7vw; /
+    }
+    .logo {
+        height: 6rem;
+        width: 4rem;
+        margin-top: -3rem; 
+    }
 }
