@@ -21,7 +21,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #555555a9;
+    background-color: #b3570b;
     color: white;
 }
 
@@ -106,7 +106,9 @@ h2.subtitle {
     height: auto;
     display: block;
     object-fit: cover;
-    opacity: 90%;
+    opacity: 50%;
+    border-radius: 600%;
+    transform: rotate(345deg);
 }
 
 @media (max-width: 1200px) {
