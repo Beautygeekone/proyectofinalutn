@@ -55,3 +55,5 @@ const textPath = document.createElementNS(svgNamespace, 'textPath');
 
     console.log('Wavy SVG subtitle injected by JavaScript.');
 });
+
+

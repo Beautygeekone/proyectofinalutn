@@ -46,7 +46,7 @@ button {
     border-color: #2c1e13;
 }
 
-
+/* Title */ 
 
 .title {
     font-size: 7rem;
@@ -110,6 +110,7 @@ h2.subtitle {
     border-radius: 600%;
     transform: rotate(345deg);
 }
+
 
 @media (max-width: 1200px) {
     .title {
